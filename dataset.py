@@ -3,7 +3,7 @@ import os
 import torch
 from torch.utils.data import Dataset, DataLoader
 TAGS = ["B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-MISC", "I-MISC", "O", "None"]
-MAX_LENGTH = 100
+MAX_LENGTH = 150
 TRAIN_BATCH_SIZE = 20
 TEST_BATCH_SIZE = 1
 
